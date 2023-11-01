@@ -12,6 +12,12 @@ export class ProductListComponent {
 
   share() {
     window.alert('The product has been shared!');
+    
+  }
+
+  onNotify() {
+    console.log("It's actually hooked up correctly, but for some reason window.alert() aint doing anything. Don't think that's an angular thing")
+    window.alert('You will be notified when the product goes on sale');
   }
 }
 
